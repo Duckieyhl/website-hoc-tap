@@ -2,9 +2,28 @@
 <html lang = "en">
     <head>
         <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "../css/style.css">
+        <link rel = "icon" type="image" href="../links-and-images/mochi.svg">
         <title>my first website</title>
     </head>
     <body>
-        <p>there are 3 type of entity that can't be write in html such as: &lt; (less than), &gt; (greater than), &amp; (ampersand)</p>
+        <form action="submit.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="msg">Message:</label>
+    <textarea id="msg"></textarea>
+
+    
+    <legend>Is your cat an indoor or outdoor cat?</legend>
+    <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+
+    <button type="submit">Send</button>
+</form>
+
     </body>
 </html>
+
+
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
